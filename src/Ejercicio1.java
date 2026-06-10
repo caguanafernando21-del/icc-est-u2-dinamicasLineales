@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class Ejercicio1 {
 
-    public String invertString(String texto) {
+    public String invertirTexto(String texto) {
         Stack<Character> pila = new Stack<>();
         
         for (int i = 0; i < texto.length(); i++) {
